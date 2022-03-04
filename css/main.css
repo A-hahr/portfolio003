@@ -276,11 +276,11 @@ h4 {
     box-sizing: border-box; /* 나왔었쥬~ 전체 스타일 합해서 width 크기에 맞춰주는 것. 이렇게 하면 유튜브보기의 hover 시 backgroun 색 들어갈 때의 여백이 안 생긴다. */
 }
 .btn li:nth-child(1):hover {
-    background-color: rgb(77, 24, 24);
+    background-color: rgb(78, 78, 78);
     width: 140px;
 }
 .btn li:nth-child(2):hover {
-    background-color: rgb(185, 96, 96);
+    background-color: rgb(129, 128, 128);
     width: 140px;
 }
 .btn li:hover a {
@@ -378,12 +378,15 @@ h4 {
     margin: 10px 0 20px;
 }
 .motion_slide .swiper-slide figure.f1 {
-    background-color:steelblue;
+    background-color:rgb(141, 255, 211);
 }
 .motion_slide .swiper-slide figure.f2 {
-    background-color:rgb(255, 196, 0);
+    background-color:steelblue;
 }
 .motion_slide .swiper-slide figure.f3 {
+    background-color:rgb(255, 212, 72);
+}
+.motion_slide .swiper-slide figure.f4 {
     background-color:rgb(99, 97, 211);
 }
 
